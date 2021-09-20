@@ -8,7 +8,7 @@ def main():
 
     r = area(b,a)
 
-    print("El área del rectángulo es:",r)
+    print("El área del rectángulo es:",+r)
 
 if __name__=='__main__':
     main()
