@@ -6,13 +6,16 @@ def area_prisma(base,altura,profundidad):
 
 def main():
     #escribe tu código abajo de esta línea
-    b = float(input("Dame la base: "))
-    a = float(input("Dame la altura: "))
-    p = float(input("Dame la profundidad: "))
+    base = float(input("Dame la base: "))
+    altura = float(input("Dame la altura: "))
+    profundidad = float(input("Dame la profundidad: "))
 
-    r = area_prisma(b,a,p)
+    area(base,altura)
 
-    print("El área total del prisma es:",r)
+    r = area_prisma(base,altura,profundidad)
+
+    print("El área total del prisma es:",+r)
 
 if __name__=='__main__':
+    
     main()
